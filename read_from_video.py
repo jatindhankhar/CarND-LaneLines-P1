@@ -117,7 +117,7 @@ def pipeline(image):
     line_edges = cv2.addWeighted(image,0.8,lines,1,0)
     return line_edges
 
-cap = cv2.VideoCapture('solidWhiteRight.mp4')
+cap = cv2.VideoCapture('challenge.mp4')
 count = 0
 while cap.isOpened():
     ret,frame = cap.read()
